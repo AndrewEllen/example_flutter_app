@@ -6,9 +6,9 @@ class CounterProvider with ChangeNotifier {
 
   int get counter => _counter;
 
-  void updateCounter(int intToAdd) {
+  void updateCounter() {
 
-    _counter += intToAdd;
+    _counter ++;
 
     notifyListeners();
   }
